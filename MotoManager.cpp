@@ -8,13 +8,29 @@ MotoManager::MotoManager(QWidget *parent) : QWidget(parent)
 	checkRestore = new QCheckBox("Restore");
 	
 	list = new QComboBox;
-	list->insertItem(0, "boot");
-	list->insertItem(1, "recovery");
-	list->insertItem(2, "lk");
-	list->insertItem(3, "logo");
-	list->insertItem(4, "nvram");
-	list->insertItem(5, "para");
-	list->insertItem(6, "loader");
+	list->insertItem(0, "config");
+	list->insertItem(1, "boot");
+	list->insertItem(2, "efuse");
+	list->insertItem(3, "expdb");
+	list->insertItem(4, "flashinfo");
+	list->insertItem(5, "frp");
+	list->insertItem(6, "keystore");
+	list->insertItem(7, "lk");
+	list->insertItem(8, "loader");
+	list->insertItem(9, "logo");
+	list->insertItem(10, "metadata");
+	list->insertItem(11, "nvdata");
+	list->insertItem(12, "nvram");
+	list->insertItem(13, "oemkeystore");
+	list->insertItem(14, "para");
+	list->insertItem(15, "proinfo");
+	list->insertItem(16, "protect1");
+	list->insertItem(17, "protect2");
+	list->insertItem(18, "recovery");
+	list->insertItem(19, "seccfg");
+	list->insertItem(20, "secro");
+	list->insertItem(21, "tee1");
+	list->insertItem(22, "tee2");
 	
 	log = new QPlainTextEdit;
 	log->setReadOnly(true);
