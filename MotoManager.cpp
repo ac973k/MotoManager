@@ -42,7 +42,22 @@ MotoManager::MotoManager(QWidget *parent) : QWidget(parent)
 
 MotoManager::~MotoManager()
 {
-	
+    delete checkBackup;
+    delete checkRestore;
+
+    delete btnAbout;
+    delete btnGotIt;
+
+    delete gridBoxLayout;
+
+    delete player;
+
+    delete procBackup;
+    delete procRestore;
+
+    delete boxAbout;
+    delete boxError;
+    delete boxSecret;
 }
 
 void MotoManager::switchToBackup()
