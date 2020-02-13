@@ -46,7 +46,6 @@ MotoManager::MotoManager(QWidget *parent) : QWidget(parent)
 	gridBoxLayout->addWidget(log, 2, 0, 2, 2);
 	gridBoxLayout->addWidget(btnGotIt, 3, 0);
 	gridBoxLayout->addWidget(btnAbout, 3, 1);
-    gridBoxLayout->addWidget(btnExit, 4, 0, 4, 2);
 	
 	setLayout(gridBoxLayout);
 	
