@@ -2,7 +2,7 @@
 
 MotoManager::MotoManager(QWidget *parent) : QWidget(parent)
 {
-    Q_INIT_RESOURCE(MotoManager);
+    Q_INIT_RESOURCE(MotoRes);
 
 	gridBoxLayout = new QGridLayout;
 	
@@ -60,7 +60,7 @@ MotoManager::MotoManager(QWidget *parent) : QWidget(parent)
 
 MotoManager::~MotoManager()
 {
-    Q_CLEANUP_RESOURCE(MotoManager);
+    Q_CLEANUP_RESOURCE(MotoRes);
 
     delete checkBackup;
     delete checkRestore;

@@ -15,7 +15,7 @@ HEADERS += \
         MotoManager.h
         
 RESOURCES += \
-        MotoManager.qrc
+    MotoRes.qrc
 
 DISTFILES += \
     android/AndroidManifest.xml \
