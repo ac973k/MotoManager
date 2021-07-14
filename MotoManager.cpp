@@ -175,7 +175,7 @@ void MotoManager::secret()
 		
 		boxSecret = new QMessageBox();
 		boxSecret->setText("Бранимир — Жази"
-"\n Музыка, слова принадлежат Александру Паршикову(Бранимир), кто начнет доебываться, идите нахуй. Саня норм мужик, грех не добавить его песню.\n P.S. Привет из Волгограда!");
+"\n Музыка, слова принадлежат Александру Паршикову(Бранимир).\n P.S. Привет из Волгограда!");
         boxSecret->exec();
         
         count = 0;
@@ -183,7 +183,7 @@ void MotoManager::secret()
     else if(count > 5)
     {
         boxError = new QMessageBox();
-        boxError->setText("Как, мать твою, ты это сделал?!");
+        boxError->setText("Как ты это сделал?!");
         boxError->exec();
     }
     else if(count == 3)
